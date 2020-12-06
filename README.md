@@ -13,7 +13,7 @@ To run commands, see the URL extensions for each command in routes.js. It usuall
 https://localhost:[your port no]/[extensions are here]<br><br>
 <i>Still confused?</i> Go study NodeJS, Express and MongoDB. This is not a tutorial.
 
-<br>I have written the services for the front end. Not yet tested if they work. I couldn't right now if I wanted to. Just coded according to some 2 year old tutorial.
+<br>I have written the services for the front end. Not yet tested if they work. I couldn't right now if I wanted to. Just coded it according to some 2 year old tutorial.
 The front end devs will have to use the service classes which have already been imported in the app.module file.
 All the classes are individually imported so as to import only required services into components and using said functions.
 
