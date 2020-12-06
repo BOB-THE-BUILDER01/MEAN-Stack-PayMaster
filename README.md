@@ -10,7 +10,7 @@ To have the back end running for your own use and testing:<br>
 
 If you want to run commands and test the backend (it works if you're wondering -_-) install Postman or similar apps.
 To run commands, see the URL extensions for each command in routes.js. It usually goes something like this:<br>
-https://localhost:[your port no]/[extensions are here]<br><br>
+https://localhost:[your_port_no]/[extensions_are_here]<br><br>
 <i>Still confused?</i> Go study NodeJS, Express and MongoDB. This is not a tutorial.
 
 <br>I have written the services for the front end. Not yet tested if they work. I couldn't right now if I wanted to. Just coded it according to some 2 year old tutorial.
