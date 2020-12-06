@@ -1,4 +1,4 @@
-PayMaster- The Employee Tracking App (MEAN Stack)
+<h2>PayMaster- The Employee Tracking App (MEAN Stack)</h2>
 
 The Backend is completed, with all routes and schemas. All required modules are imported and setup in the index.js file. 
 To have the back end running for your own use and testing:<br>
