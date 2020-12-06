@@ -21,4 +21,7 @@ the different elements required to complete the front end. No ETA. If you have a
 
 As of now, front end development is still in the works. 
 
-- BOB THE BUILDER
+Signed,
+
+BOB THE BUILDER
+(yes he can)
