@@ -1,0 +1,63 @@
+<div class="wrapper">
+    <div class="page-header" style="background-image: url('./assets/img/login-image.jpg');">
+        <div class="filter"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mr-auto ml-auto">
+                      <div class="card card-register">
+                          <h3 class="title">What should we call you?</h3>
+                          <form class="register-form">
+                            <label>Name</label>
+                            <div class="input-group form-group-no-border" [ngClass]="{'input-group-focus':focus===true}">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="nc-icon nc-badge"></i>
+                                </span>
+                              </div>
+                             
+                              <input type="text" class="form-control" placeholder="First name" (focus)="focus=true" (blur)="focus=false" >
+                              <input type="text" class="form-control" placeholder="Middle Name" (focus)="focus=true" (blur)="focus=false" >
+                              <input type="text" class="form-control" placeholder="Last Name" (focus)="focus=true" (blur)="focus=false" >
+                            
+                              </div>
+                              <label>Email</label>
+                              <div class="input-group form-group-no-border" [ngClass]="{'input-group-focus':focus===true}">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text">
+                                      <i class="nc-icon nc-email-85"></i>
+                                  </span>
+                                </div>
+
+                                  <input type="text" class="form-control" placeholder="Email" (focus)="focus=true" (blur)="focus=false" >
+                              </div>
+
+                              <div ng-controller="confirmCtrl">   
+                                   <div>  
+                                      <label>Password</label> 
+                                      <i class="nc-icon nc-key-25"></i> 
+                                      <input type="password" name="password" ng-model="EPassword" required class="form-control" />
+                                      <span *ngIf="password.invalid && (password.dirty || password.touched)">
+                                        <mat-error *ngIf="password.errors['required']">Password is Required.</mat-error>
+                                        <mat-error *ngIf="password.errors['minlength']">Password can't be less than 5 characters.</mat-error>  
+                                   </div>  
+                                
+                                   <div>  
+                                      <label>Retype Password</label>  
+                                      <input type="password" name="ECPassword" ng-model="ECPassword" required compare-to="EPassword" class="form-control" />   
+                                      <span class="error" ng-show="f1.ECPassword.$error.compareTo">  
+                                         Passwords don't match.  
+                                      </span>   
+                                   </div>  
+                                
+                              </div>
+                          </form>
+                          
+                      </div>
+                    </div>
+                </div>
+                <div class="footer register-footer text-center">
+                    <h6>Payroll App PESU ECC 2020</h6>
+                </div>
+            </div>
+    </div>
+</div>
