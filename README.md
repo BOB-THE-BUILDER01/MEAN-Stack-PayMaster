@@ -6,12 +6,12 @@ To have the back end running for your own use and testing:<br>
 2. Go to the package.json and install all modules under the dependencies. Use 'npm install <module name>' to install.
 3. type 'nodemon start' to run your server.
 4. Sit back and take a sip of your imaginary drink. Who are you kidding, you've only come here to take someone's project at the last minute. Dw, it's all yours.
-<br><br><i>Sidenote: This is all inside the server folder. If you require this warning, please <b>STUDY</b>. Next paragraph on what to study.</i>
+  <br><br><i>Sidenote: This is all inside the server folder. If you require this warning, <b>PLEASE</b> go study NodeJS, Express and MongoDB. This is not a tutorial.</i>
 
 If you want to run commands and test the backend (it works if you're wondering -_-) install Postman or similar apps.
 To run commands, see the URL extensions for each command in routes.js. It usually goes something like this:<br>
 https://localhost:[your_port_no]/[extensions_are_here]<br><br>
-<i>Still confused?</i> Go study NodeJS, Express and MongoDB. This is not a tutorial.
+<i>Still confused?</i> please <b>STUDY</b>
 
 <br>I have written the services for the front end. Not yet tested if they work. I couldn't right now if I wanted to. Just coded it according to some 2 year old tutorial.
 The front end devs will have to use the service classes which have already been imported in the app.module file.
@@ -22,7 +22,7 @@ the different elements required to complete the front end. No ETA. If you have a
 
 As of now, front end development is still in the works. 
 <br><br>
-<b>EDIT: </b>The front end is uploaded. If you are asking me, please create your own front end. There is very good chance that this does not work <i>(ᴛʜʀᴏᴡɪɴɢ sʜᴀᴅᴇ)</i>.
+<h4>EDIT: </h4>The front end is uploaded. If you are asking me, please create your own front end. There is very good chance that this does not work <i>(ᴛʜʀᴏᴡɪɴɢ sʜᴀᴅᴇ)</i>.
 If you want more direction on what to do for the front end:
 1. Use your imagination, please.
 2. There are many free templates online. I used the first Google search result to find mine.<br>
