@@ -21,6 +21,18 @@ The front end consists of an Angular template downloaded online. I have given th
 the different elements required to complete the front end. No ETA. If you have a front end, go for this. It's basically done.
 
 As of now, front end development is still in the works. 
+<br><br>
+<b>EDIT: </b>The front end is uploaded. If you are asking me, please create your own front end. There is very good chance that this does not work <i>throwing shade</i>.
+If you want more direction on what to do for the front end:
+1. Use your imagination, please.
+2. There are many free templates online. I used the first Google search result to find mine.<br>
+https://www.creative-tim.com/templates/angular-free <br>
+This is the website I used to get the template.
+3. Paper Kit 2 Angular (Heads up, it uses Angular 9) and Material Dashboard Angular (this is 10)
+4. PK2 is used as the main template (it has a signup and landing pages). I only wanted to use the table components from MD as half of this project is just tables.
+5. If you are wondering about services, go to Client -> src -> app -> services. It should have them for all components you are using. Refer to the components.module.ts to see how they are imported to be used throughout the app.
+
+All the Best,
 
 Signed,
 
