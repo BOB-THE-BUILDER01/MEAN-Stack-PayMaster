@@ -22,7 +22,7 @@ the different elements required to complete the front end. No ETA. If you have a
 
 As of now, front end development is still in the works. 
 <br><br>
-<b>EDIT: </b>The front end is uploaded. If you are asking me, please create your own front end. There is very good chance that this does not work <i>throwing shade</i>.
+<b>EDIT: </b>The front end is uploaded. If you are asking me, please create your own front end. There is very good chance that this does not work <i>(ᴛʜʀᴏᴡɪɴɢ sʜᴀᴅᴇ)</i>.
 If you want more direction on what to do for the front end:
 1. Use your imagination, please.
 2. There are many free templates online. I used the first Google search result to find mine.<br>
